@@ -1,0 +1,193 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #F34D48;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+.navbar-brand img {
+    height: 2em;
+    padding: 2px;
+}
+
+/*.landing {*/
+
+/*    position:relative;*/
+
+/*    height:100%;*/
+
+/*    width:100%;*/
+
+/*    display: table;*/
+
+/*background: url(image/fugi.jpg) no-repeat center center fixed;*/
+
+/*    background:black;*/
+
+/*    z-index:-1;*/
+
+/*}*/
+
+/*.home-wrap{*/
+
+/*    clip: rect(0,auto,auto,0);*/
+
+/*    position:absolute;*/
+
+/*    top:0;*/
+
+/*    left:0;*/
+
+/*    height:100%;*/
+
+/*    width:100%;*/
+
+/*}*/
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+    margin-top: 1em;
+}
+.landing-text {
+    font-size:80px;
+    color:white;
+}
+.home-inner {
+    position: relative;
+    background: linear-gradient( rgba(20, 0, 30, .8), rgba(0, 0, 0, .1)), url('img/fugi.jpg') no-repeat center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0 200px;
+    filter: blur(3px);
+}
+
+.bar {
+    padding: 20px;
+    background-color: #FAE9CF;
+    max-height: 30px;
+    filter: blur(3px);
+}
+
+.locations {
+    border: 1px solid black;
+    display: center;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    padding-top:0;
+    position: absolute;
+}
+
+/*.location {*/
+
+/*    position:absolute;*/
+
+/*    top: 0;*/
+
+/*    left: 0;*/
+
+/*    bottom: 0;*/
+
+/*    right: 0;*/
+
+/*}*/
+
+.row {
+    padding: 20px;
+}
+
+#contact {
+    background-color: gray;
+}
+
+.locations {
+    position: relative;
+    text-align: center;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+
+
+.location {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*}*/
+
+/* {*/
+/*    flex-shrink:0;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*}*/
+
+.footer {
+    background-color:#466449;
+    color:white;
+}
+.container {
+    padding:20px;
+}
+@media(min-width:768px) {
+    .landing-text {
+        font-size: 70px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .subtitle {
+        font-size: 30px;
+    }
+    .text {
+        font-size: 17px;
+    }
+    
+}
+
+/*medium*/
+
+@media(min-width:992px) {
+    .landing-text {
+        font-size: 90px;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .subtitle {
+        font-size: 40px;
+    }
+    .text {
+        font-size: 19px;
+    }
+}
+/*lg*/
+
+@media(min-width:1200px) {
+    .landing-text {
+        font-size: 90px;
+    }
+    .title {
+        font-size: 60px;
+    }
+    .subtitle {
+        font-size: 40px;
+    }
+    .text {
+        font-size: 22px;
+    }
+}
