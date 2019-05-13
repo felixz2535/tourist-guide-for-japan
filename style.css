@@ -5,7 +5,9 @@ body {
     height: 100%;
     width: 100%;
 }
-
+h4, p{
+    font-family: 'Merriweather, serif';
+}
 .navbar {
     background-color: #F34D48;
     padding: 1%;
@@ -136,12 +138,13 @@ body {
 
 #intro {
     height: 100vh;
-    padding-top: 20px;
+    padding-top: 30px;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 /*season*/
 #seasons{
+    padding-top: 30px;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 .col-lg-6 {
@@ -161,7 +164,7 @@ body {
 
 #location {
     height: 150vh;
-    padding-top: 20px;
+    padding-top: 30px;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
@@ -304,6 +307,7 @@ body {
 /*2020*/
 #future {
     height:100vh;
+    padding-top: 30px;
 }
 .videowrapper {
     position: relative;
