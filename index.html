@@ -8,20 +8,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
-    $(document).ready(function() {
-      $(".nav-link").hover(function() {
-        $(this).css("color", "gray");
-      });
+  $(function() {
+  $("a").hover(function(){
+  $(this).css("color", "gray");
 
-    });
+});
+});
   </script>
 </head>
 
 <body data-spy="scroll" data-target="#menu">
-  <!---Start of Home-->
   <div id="home">
-    <!---Start of Nav-->
+    <!---Nav-->
     <nav class="navbar fixed-top  navbar-dark navbar-expand-md">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="img/icon1.jpg"></a>
@@ -37,279 +37,333 @@
               <a class="nav-link" href="#intro">Intro</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#season">Seasons</a>
+              <a class="nav-link" href="#seasons">Seasons</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#location">Prefectures</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#2020">2020</a>
+              <a class="nav-link" href="#future">2020</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!---End of Nav-->
-    <!---Start of Landing-->
+    <!---Landing-->
     <div class="landing" id="home">
       <div class="home-wrap">
         <div class="home-inner">
-
         </div>
       </div>
     </div>
     <div class="caption center-block text-center">
-      <h3 class="landing-text">Welcome To The Tourist Site For Japan</h3>
+      <h3 class="landing-text">General Guide For Japan</h3>
       <a href="#intro" class="btn btn-outline-light btn-lg" href="#">Get Started</a>
     </div>
   </div>
-  <!---End of Landing-->
-  <!---End of Home-->
-  <!---Start of Intro-->
-  <div class="bar">
+  <div>
+    <hr class="my-20">
   </div>
-  <div class="container" id="intro">
-    <div class="row">
-      <div class="intro">
-        <h4 class="title">Intro</h4>
-        <p class="text">Japan is considered an interesting country with huge range of activity that appeals to everyone. As a tourist there is just too many things not to do. What the purpose of this website is to set the scope of what you can do in Japan. If this is
-          anything that you really need to do is learn a bit of Japanese when you go there. Just the basic not too much.
-        </p>
-      </div>
-    </div>
-  </div>
-  <!---End of Intro-->
-  <div class="bar">
-  </div>
-  <!---Start of Seasons-->
-  <div class="container" id="season">
-    <h4 class="title">Seasons</h4>
-    <p class="text">Depending on the season you're visiting Japan there could be some exciting things that is limited to that season.</p>
-    <div class="season1">
-      <h5 class="subtitle">Spring</h5>
-      <div class="col-m-6">
-        <p class="text">When it comes to Spring there is no better activities than cherry blossom viewing. People would gather near cherry blossom trees and have a picnic. You get to spent a great time with your friends, family, or co-workers. Since Golden Week starts
-          from late April to early May it might be really expensive traveling around.
-        </p>
-      </div>
-      <div class="col-m-3">
-        <img>
-      </div>
-    </div>
-    <div class="season2">
-      <h5 class="subtitle">Summer</h5>
-      <div class="col-m-6">
-        <p class="text">In Summer many family would go on vacation their destination might be beaches, amusement park really anywhere to spent time having fun, what is special about Japan is that they tend to hold festivals all the time. The festival in the summer is
-          really fun with stands selling food and game that you might win a prize. Plus you can even what fireworks.
-        </p>
-      </div>
-      <div class="col-m-3">
-        <img>
-      </div>
-    </div>
-    <div class="season3">
-      <h5 class="subtitle">Fall</h5>
-      <div class="col-m-6">
-        <p class="text">Fall is a really refreshing season with the autumn leaves turning red and orange really a beautiful sight. People might rake up the leaves and have some sweet potato.
-        </p>
-      </div>
-      <div class="col-m-3">
-        <img>
-      </div>
-    </div>
-    <div class="season4">
-      <h5 class="subtitle">Winter</h5>
-      <div class="col-m-6">
-        <p class="text">Your first Christmas in Japan might be weird, looking around you would see couple hanging out and people buying KFC and strawberry short cake for their Christmas meals
-        </p>
-      </div>
-      <div class="col-m-3">
-        <img>
-      </div>
+  <!--break bar-->
+  <!---Intro-->
+  <div class="container-fluid" id="intro">
+    <div class="intro">
+      <h4 class="title">Intro</h4>
+      <p class="text">Japan is considerably an interesting country to visit. There is a huge range of activities that really can appeals to anyone and very appetizing food to explore. As a tourist there is just too many things not to do. What the purpose of this website is to set the scope of what you can do in Japan, just note that this doesn’t include all of japan because there is just way too much.
+      </p>
+      <br>
+      <br>
+      <h4 class="title">For Starters ...</h4>
+      <p class="text"> If this is anything that you really need to do is learn a bit of Japanese when you go there. Just the basic not too much. This can help you in a lot of situations and also help you connect with the locals.</p>
+      <br>
+      <br>
+        <h4 class="title">Crucial Information</h4>
+      <p class="text">Japan is considered an interesting country with huge range of activity that appeals to everyone. As a tourist there is just too many things not to do. What the purpose of this website is to set the scope of what you can do in Japan. If this is anything
+        that you really need to do is learn a bit of Japanese when you go there. Just the basic not too much.</p>
     </div>
   </div>
-  <!---End of Seasons-->
-  <!---Start of Recommendation-->
+  <div>
+    <hr class="my-4">
+  </div>
+  <!---Seasons-->
+  <section class="container-fluid" id="seasons">
+    <div class="container-fluid p-0">
+      <h4 class="title">Seasons</h4>
+      <div class="row no-gutters">
 
-  <!---End of Recommendation-->
-  <!---Start of Map-->
+        <div class="col-lg-6 order-lg-2 img" style="background-image: url('img/spring1.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 ">
+          <h2 class="subtitle">Spring</h2>
+          <p class="text">When it comes to Spring there is no better activities than cherry blossom viewing. People would gather near cherry blossom trees and have a picnic. You get to spent a great time with your friends, family, or co-workers. Since Golden Week starts
+            from late April to early May it might be really expensive traveling around.</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white img" style="background-image: url('img/fireworks.jpg');"></div>
+        <div class="col-lg-6">
+          <h2 class="subtitle">Summer</h2>
+          <p class="text">Summer is when many family would go on vacation. Their destination might be beaches, amusement park really anything. Something that happens quite frequently in Japan is festivals. There are oftens stands that sells food or offers game with reward. During these festival you might be able to see fireworks!!
+</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 img" style="background-image: url('img/fall2.jpg');"></div>
+        <div class="col-lg-6 order-lg-1">
+          <h2 class="subtitle">Fall</h2>
+          <p class="text">Fall is a really refreshing season with the autumn leaves turning red and orange, really a beautiful sight. People might rake up the leaves and have some sweet potato. Scenery in that time is really beautiful, so might as well go to the country sides.
+</p>
+        </div>
 
-  <!---End of Recommendation-->
-  <div class="bar">
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white img" style="background-image: url('img/winter.jpg');"></div>
+        <div class="col-lg-6">
+          <h2 class="subtitle">Winter</h2>
+          <p class="text">When it comes to winter you might think of christmas. Your first Christmas in Japan might be weird experience, looking around you would see couple hanging out and people buying KFC and strawberry short cake for their Christmas meals. Around the end of the year comes the new year in which Japanese people do celebrate. They often stay up late to count down to the New Year or climb a mountain to see the first sunrise. And on New Year people often eat Osechi Ryori which is kind of like a bento fill with a lot of dishes that each holds a meaning.</p>
+        </div>
+      </div>
+
+      </div>
+    
+  </section>
+  <div>
+    <hr class="my-4">
   </div>
-  <!---Start of Location-->
-  <div class="prefectures container" id="location">
-    <div class="container-fluid padding">
+  
+<!---Location-->
+  <div class="prefectures container-fluid" style="padding:60px;" id="location">
+    <div class="container-fluid">
       <h4 class="heading title">Prefectures</h4>
-      <p class="text">The country of Japan can be split into regions and can be further break down into prefecture. Each prefecture is unique in its own way with their famous food and mascot and tourist sites as listed below:</p>
-      <div class="row no-padding">
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Aichi</p>
-          <img scr="img/aichi.jpg">
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Akita</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Aomori</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Ehime</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Fukui</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Fukuoka</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Fukushima</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Gifu</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Gunma</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Hiroshima</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Hokkaido</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Hyogo</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Ibaraki</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Ishikawa</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Iwate</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Kagawa</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Kagoshima</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Kanagawa</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Kochi</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Kumamoto</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Kyoto</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Mie</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Miyagi</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Miyazaki</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Nagano</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Nagasaki</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Nara</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Niigata</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Oita</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Okayama</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Okinawa</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Osaka</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Saga</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Saitama</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Shiga</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Shimane</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Shizuoka</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Tochigi</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Tokushima</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Tokyo</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Tottori</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Toyama</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Wakayama</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Yamagata</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Yamaguchi</p>
-        </div>
-        <div class="col-md-3 col-lg-1 locations">
-          <p class="location img-responsive">Yamanashi</p>
-        </div>
+      <p class="text">The country of Japan can be split into regions and can further break down into prefectures. Each prefecture is unique in its own way there is just too many things you can do in any one of them</p>
+    </div>
+    <div>
+    <div class="row">
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/aichi.jpg" class="image">
+        <div class="captions">Aichi</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/akita.jpg" class="image">
+        <div class="captions">Akita</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/aomori.jpg" class="image">
+        <div class="captions">Aomori</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/chiba.jpg" class="image">
+        <div class="captions">Chiba</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/ehime.jpg" class="image">
+        <div class="captions">Ehime</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/fukui.jpg" class="image">
+        <div class="captions">Fukui</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/fukuoka.jpg" class="image">
+        <div class="captions">Fukuoka</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/fukushima.jpg" class="image">
+        <div class="captions">Fukushima</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/gifu.jpg" class="image">
+        <div class="captions">Gifu</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/gunma.jpg" class="image">
+        <div class="captions">Gunma</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/hiroshima.jpg" class="image">
+        <div class="captions">Hiroshima</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/hokkaido.jpg" class="image">
+        <div class="captions">Hokkaido</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/hyogo.jpg" class="image">
+        <div class="captions">Hyogo</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/ibaraki.jpg" class="image">
+        <div class="captions">Ibaraki</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/ishikawa.jpeg" class="image">
+        <div class="captions">Ishikawa</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/iwate.jpg" class="image">
+        <div class="captions">Iwate</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/kagawa.jpg" class="image">
+        <div class="captions">Kagawa</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/kagoshima.jpg" class="image">
+        <div class="captions">Kagoshima</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/kanagawa.jpg" class="image">
+        <div class="captions">Kanagawa</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/kochi.jpg" class="image">
+        <div class="captions">Kōchi</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/kumamoto.jpg" class="image">
+        <div class="captions">Kumamoto</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/kyoto.jpg" class="image">
+        <div class="captions">Kyoto</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/mie.jpg" class="image">
+        <div class="captions">Mie</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/miyagi.jpg" class="image">
+        <div class="captions">Miyagi</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/miyazaki.jpg" class="image">
+        <div class="captions">Miyazaki</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/nagano.jpg" class="image">
+        <div class="captions">Nagano</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/nagasaki.jpg" class="image">
+        <div class="captions">Nagasaki</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/nara.jpg" class="image">
+        <div class="captions">Nara</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/niigata.jpg" class="image">
+        <div class="captions">Niigata</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/oita.jpg" class="image">
+        <div class="captions">Ōita</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/okayama.jpg" class="image">
+        <div class="captions">Okayama</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/okinawa.jpg" class="image">
+        <div class="captions">Okinawa</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/osaka.jpg" class="image">
+        <div class="captions">Osaka</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/saga.jpg" class="image">
+        <div class="captions">Saga</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/saitama.jpg" class="image">
+        <div class="captions">Saitama</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/shiga.jpg" class="image">
+        <div class="captions">Shiga</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/shimane.jpg" class="image">
+        <div class="captions">Shimane</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/shizuoka.jpg" class="image">
+        <div class="captions">Shizuoka</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/tochigi.jpeg" class="image">
+        <div class="captions">Tochigi</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/tokushima.jpg" class="image">
+        <div class="captions">Tokushima</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/tokyo.jpg" class="image">
+        <div class="captions">Tokyo</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/tottori.jpg" class="image">
+        <div class="captions">Tottori</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/toyama.jpg" class="image">
+        <div class="captions">Toyama</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/wakayama.jpg" class="image">
+        <div class="captions">Wakayama</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/yamagata.jpg" class="image">
+        <div class="captions">Yamagata</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/yamaguchi.jpg" class="image">
+        <div class="captions">Yamaguchi</div>
+      </div>
+      <div class="col-md-1 col-sm-3 col-xs-6">
+        <img src="img/location/yamanashi.jpg" class="image">
+        <div class="captions">Yamanashi</div>
       </div>
     </div>
   </div>
-  <!---End of Location-->
-  <div class="bar">
   </div>
-  <div class="container">
-    <h4 class="title" id="2020">2020 Summer Olympics</h4>
+  <div>
+   
+<!--2020-->
+  <div class="container-fuild" id="future">
+    <h4 class="title" >2020 Summer Olympics</h4>
     <p class="text">2020 is a huge year for Japan, with them hosting the olympics. They are there to impress the world with their culture, if you like sport this might be something you are looking forward to. The Olympics looks really promising considering its held in
       Tokyo.
     </p>
-  </div>
-  <!---Start of Footer-->
-  <div id="contact">
-    <div class="container-fuild footer">
-      <div class="row">
-        <div class="col-md-3 offset-md-4"></div>
-        <div class="col-md-4 offset-md-4 text-center">
-          <strong>Location</strong>
-          <p>123 Street Name<br>City, AA 12345</p>
-          <strong>Contact</strong>
-          <p>(888)-888-88888<br>email@web.com</p>
-          <p>Copyright &copy; 2019 ______. All Right Reserved.</p>
-        </div>
-      </div>
+    <p class="text">
+       The following trailer feature some japanese cartoon and celebrity, just something to keep in mind
+
+    </p>
+    <div class="videowrapper">
+    
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FNuqKVG781I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ 
     </div>
+  <div>
+   <hr class="my-4">
   </div>
-  <!---End of Footer-->
+  
+<!--footer-->
+  <footer class="footer text-center">
+    <div class="container">
+      <strong>Location</strong>
+      <p>123 Street Name<br>City, AA 12345</p>
+      <strong>Contact</strong>
+      <p>(888)-888-88888<br>email@web.com</p>
+      <p>Copyright &copy; 2019 ______. All Right Reserved.</p>
+    </div>
+  </footer>
+  
+  
+<!--basic bootstrap-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -320,6 +374,7 @@
 <!---Start of Landing-->
 <!---End of Landing-->
 <!--
+https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
 https://mdbootstrap.com/docs/jquery/javascript/carousel/
 https://bootstrap-vue.js.org/docs/components/navbar/
 googel search map & timeline
