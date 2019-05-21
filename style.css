@@ -5,6 +5,7 @@ body {
     height: 100%;
     width: 100%;
     background-color:gray;
+    font-size:20px;
 }
 
 h4, p{
@@ -239,8 +240,8 @@ div h2 {
 table {
     margin: 0pt auto;
 }
-.table-wrapper {
-    
+#location .title-wrapper {
+    /*margin-bottom:20px;*/
 }
 
 table td {
@@ -251,11 +252,13 @@ table td {
     text-align: center;
     color: white;
     background: linear-gradient( rgba(0, 0, 0, .8),
-    rgba(0, 0, 0, .1));
+    rgba(0, 0, 0, 1));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-position: 50% 50%;
+    bottom:-20pt;
+    position:relative;
 }
 
 
